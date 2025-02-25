@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* FONT FAMILY ///////////////////////////////////////////////////*/
+
+h1,
+h2,
+h3 {
+  font-family: "Gugi", cursive;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2,
+h3 {
+  font-size: 18px;
+}
+
+li,
+a,
+p {
+  font-family: "Jaldi", sans-serif;
+}
+
+p,
+a,
+li {
+  font-size: 18px;
+}
+
+/* HEADER ///////////////////////////////////////////////////*/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(16, 24, 38);
+}
+
+nav>div {
+  padding: 15px;
+  align-items: center;
+  align-content: center;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.navh1 a {
+  font-size: 25px;
+  color: rgb(218, 200, 174);
+}
+
+.navh1 a:hover {
+  color: rgb(240, 235, 235);
+}
+
+
+
+/* MAIN ///////////////////////////////////////////////////*/
+
+.divmain {
+  display: flex;
+}
+
+.divmain1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgb(16, 16, 16);
+  width: 50%;
+}
+
+.divmain1 div {
+  padding: 20px;
+  width: 80%;
+}
+
+.divmain1 h1 {
+  color: rgb(227, 227, 227);
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.divmain1 a {
+  color: aliceblue;
+}
+
+.divmain ul li a {
+  display: inline-block;
+  padding: 5px 30% 5px 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(192, 192, 192);
+}
+
+ul li a:hover {
+  background-color: rgba(126, 126, 126, 0.176);
+  color: rgb(255, 255, 255);
+}
+
+.divmain2 {
+  background-color: rgba(65, 184, 54, 0.943);
+  width: 50%;
+}
+
+.divmain2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* FOOTER ///////////////////////////////////////////////////*/
+
+footer {
+  background-color: rgb(16, 24, 38);
+}
+
+footer>div {
+  padding: 15px;
+  text-align: center;
+}
+
+footer a {
+  font-size: 20px;
+  color: rgb(218, 200, 174);
+}
+
+footer a:hover {
+  color: rgb(240, 235, 235);
+}
+
+span {
+  color: rgb(168, 168, 162);
+}
+
+/* HOJA DE VIDA ///////////////////////////////////////////////////*/
+
+.hojav {
+  display: flex;
+}
+
+.hojav h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.hojav li,
+ul {
+  padding-top: 5px;
+}
+
+.hojav1 {
+  width: 30%;
+  background: linear-gradient(to top, #1c2022 90%, rgba(197, 101, 46, 0.968) 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.hojav1 .img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  border: 1px solid white;
+}
+
+.hojav1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 0%;
+}
+
+.hojav1 div {
+  margin-bottom: 30px;
+}
+
+.v1 {
+  border-top: 2px solid rgb(207, 207, 207);
+  width: 100%;
+}
+
+.hojav1 h2 {
+  color: rgb(207, 207, 207);
+}
+
+.hojav1 p {
+  color: rgb(207, 207, 207);
+}
+
+.hojav1 li {
+  color: rgb(207, 207, 207);
+}
+
+.hojav2 {
+  width: 70%;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px 30px 80px;
+}
+
+.hojav2 div {
+  margin-bottom: 30px;
+}
+
+.v2 {
+  border-top: 2px solid rgb(197, 101, 46);
+}
+
+.hojav2 h1 {
+  font-size: 2rem;
+  color: rgb(197, 101, 46);
+}
